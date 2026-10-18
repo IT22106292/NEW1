@@ -1,0 +1,60 @@
+{
+  "best_model": "Random Forest",
+  "mean_f1": 0.0,
+  "f1_variance": 0.0,
+  "mean_auc": 0.0,
+  "alarm_threshold": 0.6,
+  "features": [
+    "memory_change_10min",
+    "memory_change_5min",
+    "heap_rate",
+    "gc_spike_count",
+    "ram_mean",
+    "ram_max",
+    "ram_std",
+    "ram_std_trend",
+    "heap_max",
+    "gc_count",
+    "ram_percent",
+    "heap_mb_used",
+    "incident_phase_1",
+    "incident_phase_2",
+    "heap_fill_ratio",
+    "memory_acceleration",
+    "gc_efficiency",
+    "ram_std_ratio",
+    "memory_growth_velocity",
+    "time_to_oom_slope",
+    "gc_pressure_index",
+    "ram_leak_momentum"
+  ],
+  "rows_trained": 31004,
+  "projects": 6,
+  "comparison": [
+    {
+      "model": "Random Forest",
+      "mean_f1": 0.0,
+      "mean_auc": 0.0
+    },
+    {
+      "model": "Decision Tree",
+      "mean_f1": 0.0,
+      "mean_auc": 0.0
+    },
+    {
+      "model": "KNN",
+      "mean_f1": 0.0,
+      "mean_auc": 0.0
+    },
+    {
+      "model": "Gradient Boosting",
+      "mean_f1": 0.0,
+      "mean_auc": 0.0
+    },
+    {
+      "model": "Logistic Regression",
+      "mean_f1": 0.0,
+      "mean_auc": 0.0
+    }
+  ]
+}
